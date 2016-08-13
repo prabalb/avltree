@@ -1,7 +1,4 @@
-An AVL tree is a self-balancing binary search tree. In such a tree, the difference between the heights 
-of two child sub-trees of any node, i.e, balance factor should not be more than 1. If anytime this balance 
-factor is more than 1, then re-balancing of the tree should be performed. The re-balancing of the tree is 
-done by one or more tree rotations. To understand tree-rotations better: http://en.wikipedia.org/wiki/Tree_rotation.
+An AVL tree is a self-balancing binary search tree. In such a tree, the difference between the heights of two child sub-trees of any node, i.e, balance factor should not be more than 1. If anytime this balance factor is more than 1, then re-balancing of the tree should be performed. The re-balancing of the tree is done by one or more tree rotations. To understand tree-rotations better: http://en.wikipedia.org/wiki/Tree_rotation.
 
 --- Program an AVL Tree that can perform the following actions:
  - Creating tree
