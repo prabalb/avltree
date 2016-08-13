@@ -1,0 +1,27 @@
+An AVL tree is a self-balancing binary search tree. In such a tree, the difference between the heights 
+of two child sub-trees of any node, i.e, balance factor should not be more than 1. If anytime this balance 
+factor is more than 1, then re-balancing of the tree should be performed. The re-balancing of the tree is 
+done by one or more tree rotations. To understand tree-rotations better: http://en.wikipedia.org/wiki/Tree_rotation.
+
+--- Program an AVL Tree that can perform the following actions:
+ - Creating tree
+ - Insertion of a node
+ - Deletion of a node
+ - Searching a node
+ - Deleting Tree
+ - Traversal of the tree - Pre-order, Post-order and In-order
+ - Check Balance
+
+To understand these actions more clearly, you can view this AVL link: http://www.qmatica.com/DataStructures/Trees/AVL/AVLTree.html 
+(You choose the step-by-step in "options" tab to understand each step clearly)
+
+Source files: wrapper.h, AVLTree.h, AVLTree.cpp, main.cpp
+Makefile: makefile
+Executable: avlexec
+How to compile and generate an executable: Type make and hit return (in the same directory as that of the makefile and source code)
+How to execute the program: ./avlexec
+Output file: avl_out.txt
+
+Assumptions: 
+ - Height of a tree increases in a bottom-up fashion, height of a leaf node is assumed to be '1'. 
+ - The output file will be generated in the current working directory.
