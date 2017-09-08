@@ -9,7 +9,7 @@ An AVL tree is a self-balancing binary search tree. In such a tree, the differen
  - Traversal of the tree - Pre-order, Post-order and In-order
  - Check Balance
 
-To understand these actions more clearly, you can view this AVL link: http://www.qmatica.com/DataStructures/Trees/AVL/AVLTree.html 
+To understand these actions more clearly, you can view this AVL link: https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
 (You choose the step-by-step in "options" tab to understand each step clearly)
 
 Source files: wrapper.h, AVLTree.h, AVLTree.cpp, main.cpp
@@ -17,7 +17,8 @@ Makefile: makefile
 Executable: avlexec
 How to compile and generate an executable: Type make and hit return (in the same directory as that of the makefile and source code)
 How to execute the program: ./avlexec
-Output file: avl_out.txt
+Input file: input.txt
+Output file: Basu-A02049867.txt
 
 Assumptions: 
  - Height of a tree increases in a bottom-up fashion, height of a leaf node is assumed to be '1'. 
