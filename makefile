@@ -14,4 +14,4 @@ AVLTree.o : AVLTree.cpp AVLTree.h wrapper.h
 	$(CC) $(CFLAGS) AVLTree.cpp
 
 clean:	
-	\rm *.o *.gch avlexec
+	\rm *.o avlexec

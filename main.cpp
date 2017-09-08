@@ -99,7 +99,7 @@ int main() {
           std::cout << "Please insert an integer, the program will delete the node with that value ..." << "\n";
           cin >> nodeVal;
           bool nodeFound = true;
-          avlTree.deleteNode(rootNode, nodeVal, nodeFound, cout);
+          rootNode = avlTree.deleteNode(rootNode, nodeVal, nodeFound, cout);
           if(nodeFound) {
             cout << "Updated tree (pre-order) after deleting " << nodeVal << ": ";
             avlTree.doPreOrderTraversal(rootNode, cout);
