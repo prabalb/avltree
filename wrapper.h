@@ -29,4 +29,4 @@ Output& operator <<(Output& op, T value)
   op.outFile << value;
   std::cout << value;
   return op;
-};
+}

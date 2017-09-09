@@ -1,6 +1,6 @@
 OBJS = main.o AVLTree.o
 CC = g++
-DEBUG = -g
+DEBUG = -g -ansi -pedantic
 CFLAGS = -Wall -c $(DEBUG)
 LFLAGS = -Wall $(DEBUG)
 
